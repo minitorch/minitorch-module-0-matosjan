@@ -64,4 +64,4 @@ jobs:
         TASK-0-3_RESULTS: "${{steps.task-0-3.outputs.result}}"
         TASK-0-4_RESULTS: "${{steps.task-0-4.outputs.result}}"
       with:
-        runners: setup,task-0-1,task-0-2,task-0-3,task-0-4
+        runners: task-0-1,task-0-2,task-0-3,task-0-4
